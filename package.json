@@ -1,0 +1,22 @@
+{
+  "name": "ssb-daemon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "ssb-daemon": "index.js",
+    "ssbd": "index.js"
+  },
+  "scripts": {
+    "test": "common-good"
+  },
+  "author": "Christian Bundy",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "common-good": "^1.1.20"
+  },
+  "dependencies": {
+    "@fraction/flotilla": "^5.0.1"
+  },
+  "keywords": [],
+  "description": ""
+}
